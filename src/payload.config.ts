@@ -82,7 +82,6 @@ export default buildConfig({
         },
         region: process.env.S3_REGION as string,
         endpoint: process.env.S3_ENDPOINT as string,
-        projectUrl: process.env.S3_PROJECT_URL as string,
       },
     })
   ],
