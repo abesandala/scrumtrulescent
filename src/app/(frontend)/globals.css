@@ -10,10 +10,21 @@
   h5,
   h6 {
     font-size: auto;
-    font-weight: auto;
+    font-family: var(--font-inter);
+  font-weight: 900;
+  }
+  
+  body {
+    font-family: var(--font-poppins);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
   }
 
   :root {
+    --font-inter: 'Inter', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
